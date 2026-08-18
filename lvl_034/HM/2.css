@@ -1,0 +1,18 @@
+table,td{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 2px so #DDDDDD;
+}
+
+table{
+    text-shadow: 1px 1px 1px #DDDDDD;
+}
+
+#cyan{
+    color: white;
+    background-color: #019879;
+}
+
+#grey{
+    background-color: #DDDDDD;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sunshiney&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+#p1{
+    color:red;
+}
+
+#p2{
+    color:blue;
+}
+
+#p3{
+    color:green;
+}
+
+#p1:link{
+    color:pink;
+    text-decoration: dashed underline red;
+}
+
+#p2:hover{
+    color:cyan;
+    text-decoration: dotted underline blue;
+}
+
+#p3:active{
+    color:yellowgreen;
+    text-decoration: line-through underline green;
+}
+
+table{
+    font-family: "Roboto";
+}
+
+table,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1){
+    background-color: lightgray;
+}

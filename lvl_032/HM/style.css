@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sunshiney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Cedarville+Cursive&family=Sunshiney&display=swap');
+
+#header, #main{
+    text-align: center;
+}
+
+.emoji{
+    font-size: 22px;
+}
+
+/* header */
+
+.ol{
+    text-decoration: dashed underline blue;
+}
+
+#button{
+    color: white;
+    background-color: black;
+    text-shadow: 1px 1px 1px cornsilk;
+    width: 100px;
+}
+
+#sunshine{
+    font-size: xx-large;
+    font-family: "Sunshiney";
+    text-shadow: 2px 2px 20px rgba(185, 35, 60, 0.333);
+}
+
+/* main; section*/
+.mainh2font{
+    font-family: "Barrio";
+}
+
+/* footer */
+#footer{
+    font-size: 10px;
+}

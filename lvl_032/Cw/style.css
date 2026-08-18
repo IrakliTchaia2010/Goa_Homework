@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+#p-1{
+    text-decoration: wavy underline;
+}
+
+#p-2{
+    text-transform: uppercase;
+}
+
+#p-3{
+    text-shadow: 2px 2px 2px red;
+}
+
+body{
+    text-decoration: dotted overline blue;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 10px rgb(90, 62, 114);
+    font-family: "Cedarville Cursive";
+}

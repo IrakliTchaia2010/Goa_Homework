@@ -1,0 +1,43 @@
+/* #2
+pseudo selectors:
+style.cssში [css id/class thing]:[selecter] სპეცუალური ფორმა htmlის კოდიდან */
+
+table,td{
+    border: 2px solid none;
+}
+
+td{
+    text-align: center;
+}
+
+.color1{
+    background-color: #80FF00;
+}
+
+.color2{
+    background-color: #DC133D;
+}
+
+.color3{
+    background-color: #B8860B;
+}
+
+.color4{
+    background-color: #8EBC8E;
+}
+
+.colorfive{
+    background-color: #00BFFE;
+}
+
+.colorsix{
+    background-color: #8C008B;
+}
+
+.color7{
+    background-color: #FBFB7F;
+}
+
+.color8{
+    background-color: #564F92;
+}

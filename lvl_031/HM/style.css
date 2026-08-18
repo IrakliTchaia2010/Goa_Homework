@@ -1,0 +1,30 @@
+#div1{
+    background-color: #29a8a858;
+    width: 100px;
+    height: 200px;
+}
+
+#div2{
+    background-color: #9aa5bd;
+    width: 200px;
+    height: 100px;
+}
+
+#div3{
+    background-color: #32701d;
+    width: 300px;
+    height: 20px;
+}
+
+#h1{
+    color: #6f1d70;
+    font-size: 71px;
+}
+
+.p1{
+    color: rgb(0, 255, 8)
+}
+
+.p2{
+    color: #27daeb
+}
