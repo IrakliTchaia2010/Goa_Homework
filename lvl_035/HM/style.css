@@ -1,0 +1,8 @@
+ul{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ol{
+  list-style-image: url(star_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png);  
+}

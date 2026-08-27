@@ -1,0 +1,42 @@
+body{
+    background-color: #F3F3F3;
+}
+
+form{
+    text-align: center;
+    height: 210px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label{
+    color: #2C2D53;
+}
+
+input{
+    text-align: left;
+    background-color: white;
+    color: gray;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+}
+
+input[name="message"]{
+    width: 170px;
+    height: 170px;
+}
+
+button{
+    color: white;
+    background-color: #877FFF;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #423e7b;
+}

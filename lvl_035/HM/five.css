@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to left #DCC2FC #94C6FC);
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    height: 210px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    color: rgb(73, 73, 73);
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    height: 20px;
+}
+
+button{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+#log{
+    background-color: white;
+}
+
+.sign{
+    background-color: #046ED4;
+}
+
+p{
+    font-size: 17px;
+}
