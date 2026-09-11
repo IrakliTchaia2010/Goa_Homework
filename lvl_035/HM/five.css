@@ -1,15 +1,19 @@
 body{
-    background-image: linear-gradient(to left #DCC2FC #94C6FC);
+    background-image: linear-gradient(to right #DCC2FC #94C6FC);
+    text-align: center;
 }
 
 form{
     background-color: white;
     text-align: center;
-    height: 210px;
-    width: 200px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 170px;
+    margin-bottom: 170px;
     font-size: 20px;
     border-radius: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 10px 10px 10px;
 }
 
 input{

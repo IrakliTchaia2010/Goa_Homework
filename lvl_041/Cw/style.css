@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 72px;
+    background-color: #1A79CF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo{
+    color: white;
+    font-size: 30px;
+}
+
+#navigation{
+    display: flex;
+    gap: 20px;
+}
+
+#navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease all;
+}
+
+#navigation a:hover{
+    color: lightblue;
+    transform: translateY(-2px);
+}
+
+button{
+    height: 40px;
+    width: 70px;
+}

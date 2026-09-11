@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.column{
+    width: 700px;
+    height: 100px;
+    background-color: #995DB5;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 4px 3px 10px black;
+}
+
+.button{
+    background-color: #F7941F;
+    border: 2px solid black;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 80px;
+    color: white;
+    font-size: 40px;
+    box-shadow: 4px 3px 10px black;
+}
+
+#ones2, #ones4, #twos1, #twos3{
+    width: 140px;
+}
+
+#ones3, #twos2{
+    width: 200px;
+}

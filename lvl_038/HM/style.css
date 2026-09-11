@@ -1,0 +1,68 @@
+/* #1
+flexbox არის მოდელი htmlისთვის რაც შეგიძლია რომ რაღაცეები რიგებად დააწყო, დაშორო, და სხვ. */
+
+/* #2
+flex direction რანაირად რაღაცეების აწყობა (x y)
+justify content რაღავეების მიმართ ადგილები
+align items რაღაცეების აწყობა რამენაირ რიგში
+gap ადგილის დატოვება */
+
+#div1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.div1{
+    background-color: #4F79EB;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#div2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div2{
+    background-color: #4A90E2;
+    color: white;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid #979797;
+}
+
+#div3{
+    display: flex;
+    flex-direction: column;
+}
+
+.div3{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+#three1{
+    background-color: #FFC107;
+}
+
+#three2{
+    background-color: #017BFF;
+}
+
+#three3{
+    background-color: #27A745;
+}
