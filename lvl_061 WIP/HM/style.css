@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans";
+}
+
+button{
+    background-color: hsl(0, 74%, 74%);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

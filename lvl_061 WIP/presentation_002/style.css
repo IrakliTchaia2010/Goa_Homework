@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Science Gothic";
+}
+
+header{
+    background-color: darkslategray;
+    height: 20vh;
+    width: 100%;
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: maroon;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+#navleft,#navright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#navright{
+    color: gray;
+}
+
+.navicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+}
+
+h2{
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.navicons:hover,#signup:hover,#login:hover,.slots:hover{
+    color: white;
+    transition: 0.4s ease all;
+}
+
+.slots:hover{
+    scale: calc(1.1);
+}
+
+main{
+    color: white;
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    color: gray;
+    gap: 40px;
+}
+
+.slots{
+    width: 230px;
+    height: 230px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#slot1{
+    grid-column: 1;
+    grid-row-start: 1;
+}
+
+#slot2{
+    grid-column: 2;
+    grid-row-start: 1;
+}
+
+#slot3{
+    grid-column: 3;
+    grid-row-start: 1;
+}
+
+.slotimages,.slotinfo{
+    width: 130px;
+    font-size: 10px;
+}
+
+footer{
+    background-color: maroon;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+
+audio{
+    margin: 100%;
+}
+
+@keyframes anim{
+    20%{
+        rotate: calc(4deg);
+    }
+    40%{
+        rotate: calc(-4deg);
+    }
+    60%{
+        rotate: calc(4deg);
+    }
+    80%{
+        rotate: calc(-4deg);
+    }
+    100%{
+        rotate: calc(0deg);
+    }
+}

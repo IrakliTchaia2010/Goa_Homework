@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#card{
+    height: 1100px;
+    width: 670px;
+    border-radius: 30px;
+    box-shadow: hsl(217, 54%, 11%) 0px 100px 20px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+    font-family: "Outfit";
+}
+
+#cardimg{
+    width: 550px;
+    border-radius: 20px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 35px;
+}
+
+#p1{
+    color: hsl(215, 51%, 70%);
+    font-size: 30px;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 300px;
+}
+
+#infos1, #infos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#icon1, #icon2{
+    width: 20px;
+}
+
+h2{
+    color: hsl(178, 100%, 50%);
+}
+
+#p2{
+    color: hsl(215, 51%, 70%);
+}
+
+#line{
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    width: 550px;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#pfp{
+    width: 70px;
+    border: hsl(0, 0%, 100%) solid 2px;
+    border-radius: 100px;
+}
+
+#p3{
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+#p4{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}

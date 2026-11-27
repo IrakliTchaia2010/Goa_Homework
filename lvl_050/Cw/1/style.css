@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter";
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 470px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    gap: 30px;
+}
+
+#profilepart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#pfp{
+    border-radius: 100px;
+    width: 100px;
+}
+
+#maininfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+#name{
+    color: white;
+    font-size: 30px;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+}
+
+#job{
+    color: white;
+    font-size: 14px;
+}
+
+#buttonpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons{
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-style: none none none;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+}
+
+.buttons:hover{
+    background-color: gray;
+    color: hsl(0, 0%, 20%);
+}
+
+.buttons:active{
+    background-color: white;
+    color: black;
+}

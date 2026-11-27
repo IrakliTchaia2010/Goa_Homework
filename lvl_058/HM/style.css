@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+#div1{
+    background-color: #F2DAAD;
+    height: 230px;
+    width: 1000px;
+    animation-name: anim1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    box-shadow: blue 00px 0px 30px;
+    border-radius: 20px;
+}
+
+#circle1{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    border-radius: 100px;
+}
+
+@keyframes anim1{
+    33%{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    66%{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    99%{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+}
+
+#div2{
+    width: 1000px;
+    height: 1000px;
+    border:  black 20px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle2{
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+    border-radius: 100px;
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: scale(2)
+}
+
+@keyframes anim2{
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(2);
+    }
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* animation-timing-function - როგორი სიხშირით ანიმაცია იწყება
+1) ease - თანაბრად მოძრაობს (დეფაულტი)
+2) linear - იგივე სისწრაფით
+3) ease-in - თავიდან ელა, უცებ ავარდება
+4) ease-out - თავიდან ადის, უცებ ნელდება */
+
+/* background-color: var(--a);
+:root{
+  --a: blue */

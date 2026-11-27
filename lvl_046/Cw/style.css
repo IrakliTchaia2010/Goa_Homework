@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    width: 500px;
+    height: 490px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.children{
+    width: 110px;
+    height: 90px;
+    border: 2px solid rgba(133, 133, 133, 0.381);
+    background-color: greenyellow;
+    color: white;
+}

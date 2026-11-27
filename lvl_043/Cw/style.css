@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700vh;
+}
+
+header{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/250px-Georgia_%28orthographic_projection_with_inset%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail);
+    background-size: cover;
+    position: fixed;
+    top: 100px;
+}

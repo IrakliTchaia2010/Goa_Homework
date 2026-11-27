@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    font-family: "Lexend Deca";
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#rightside{
+    width: 650px;
+    height: 490px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#leftside{
+    background-color: hsl(244, 37%, 16%);
+    width: 650px;
+    height: 490px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 40px;
+    flex-direction: column;
+}
+
+h1{
+    color: hsl(277, 64%, 61%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#grid{
+    display: flex;
+    gap: 100px;
+}
+
+#slot1,#slot2,#slot3,#slot4{
+    width: 200px;
+    height: 200px;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+}
+
+h6{
+    color: hsla(0, 0%, 100%, 0.6);
+}

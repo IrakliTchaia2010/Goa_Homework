@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 72px;
+    background-color: #DEF7FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo{
+    color: #5F5F5F;
+    font-size: 30px;
+}
+
+#navigation{
+    display: flex;
+    gap: 20px;
+}
+
+#first{
+    display: flex;
+    gap: 10px;
+}
+
+#navigation a{
+    color: #5F5F5F;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease all;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: #30A0F6;
+    border: none;
+}

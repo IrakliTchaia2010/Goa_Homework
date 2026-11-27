@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.main{
+    width: 1000px;
+    height: 1000px;
+    background-color: #406AE4;
+    border: 10px solid black;
+}
+
+#div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: #E0B986;
+    border-radius: 100px;
+}
+
+#div1{
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#div2{
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim1{
+    33%{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+    66%{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    99%{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+}
+
+@keyframes anim2{
+    33%{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    66%{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    99%{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+}

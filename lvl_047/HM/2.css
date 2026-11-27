@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid{
+    background-color: red;
+    color: white;
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,170px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#slot1{
+    background-color: #01DC99;
+    grid-row-start: 0;
+    grid-row-end: 0;
+    grid-column-start: 0;
+    grid-column-end: 0;
+}
+
+#slot2{
+    background-color: #DF009C;
+    grid-row-start: 0;
+    grid-row-end: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#slot3{
+    background-color: #0298E0;
+    grid-row-start: 0;
+    grid-row-end: 0;
+    grid-column-start: 0;
+    grid-column-end: 2;
+}
+
+#slot4{
+    background-color: #DF9801;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+#slot5{
+    background-color: #9A00E0;
+}
+
+#slot6{
+    background-color: #99DD00;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}

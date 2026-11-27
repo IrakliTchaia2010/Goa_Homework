@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    height: 400px;
+    width: 400px;
+    background-color: var(--w);
+    border: 10px solid black;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+:root{
+    --w: white;
+    --r: red;
+    --b: blue;
+    --y: yellow;
+    --g: green;
+    --bb: black
+
+}
+
+@keyframes anim{
+    20%{
+        background-color: var(--r);
+        transform: scale(1);
+    }
+    40%{
+        background-color: var(--b);
+        transform: scale(1.2);
+    }
+    60%{
+        background-color: var(--y);
+        transform: scale(2);
+    }
+    80%{
+        background-color: var(--g);
+        transform: scale(1.7);
+    }
+    100%{
+        background-color: var(--bb);
+        transform: scale(2);
+    }
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 900px;
+}
+
+.child{
+    height: 900px;
+    width: 466.666666667px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+#child1,#child2,#child3{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    gap: 170px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+img{
+    width: 120px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders";
+    font-size: 90px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-size: 30px;
+}
+
+button{
+    width: 200px;
+    height: 65px;
+    border-radius: 80px;
+    border: none;
+    font-size: 22px;
+    font-family: "Lexend Deca";
+    background-color: hsl(0, 0%, 95%);
+}
+
+#child1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#child1button{
+    color: hsl(31, 77%, 52%);
+}
+
+#child2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#child2button{
+    color: hsl(184, 100%, 22%);
+}
+
+#child3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+#child3button{
+    color: hsl(179, 100%, 13%);
+}

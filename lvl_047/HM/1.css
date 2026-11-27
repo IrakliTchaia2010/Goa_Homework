@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* grid-column-start - yზე დასაწყისი
+grid-column-end - yზე დასასრული
+grid-row-start - xზე დასაწყისი
+grid-row-end - xზე დასასრული */
+
+#grid{
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,170px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.slot{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#slot1{
+    background-color: #00BFFE;
+}
+
+#slot2{
+    background-color: #FF4500;
+}
+
+#slot3{
+    background-color: #4169E2;
+}
+
+#slot4{
+    background-color: #FED700;
+}
+
+#slot5{
+    background-color: #8A2BE1;
+}
+
+#slot6{
+    background-color: #32CD33;
+}
+
+#slot7{
+    background-color: #FF7F50;
+}
+
+#slot8{
+    background-color: #20B1AA;
+}
+
+#slot9{
+    background-color: #800000;
+}

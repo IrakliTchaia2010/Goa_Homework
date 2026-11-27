@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 600px){
+    #main{
+        background-color: green;
+        color: blue;
+        display: flex;
+        position: top left;
+        width: 100px;
+        height: 100px;
+    }
+}
